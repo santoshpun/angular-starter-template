@@ -17,12 +17,12 @@ npm install -g @angular/cli
 ```
 - Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/angularAdminLTE.git
+git clone https://github.com/YOUR_USERNAME/angular-starter-template.git
 ```
 
 - Install the packages
 ```bash
-cd angularAdminLTE
+cd angular-starter-template
 npm install
 ```
 
