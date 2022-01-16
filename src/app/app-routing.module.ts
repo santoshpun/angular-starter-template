@@ -1,16 +1,14 @@
+import { ProjectsComponent } from './projects/projects.component';
+import { UsersComponent } from './users/users.component';
+import { ContentComponent } from './content/content.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    loadChildren: () => import('./starter/starter.module').then(m => m.StarterModule)
-  },
-  {
-    path: 'starter',
-    loadChildren: () => import('./starter/starter.module').then(m => m.StarterModule)
-  }
+  { path: '', component: ContentComponent },
+  { path: 'users', component: UsersComponent },
+  { path: 'projects', component: ProjectsComponent }
 ];
 
 @NgModule({
