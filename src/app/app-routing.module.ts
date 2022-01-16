@@ -1,6 +1,6 @@
 import { ProjectsComponent } from './projects/projects.component';
 import { UsersComponent } from './users/users.component';
-import { ContentComponent } from './content/content.component';
+import { ContentComponent } from './layout/content/content.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
